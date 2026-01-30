@@ -1,5 +1,6 @@
 {
   "name": "nexora-studio",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -7,17 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
-    "framer-motion": "^11",
-    "lucide-react": "^0.378.0",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-hook-form": "^7",
-    "typescript": "^5"
+    "next": "16.1.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "framer-motion": "11.18.2",
+    "lucide-react": "0.268.0",
+    "react-hook-form": "7.47.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10",
-    "postcss": "^8",
-    "tailwindcss": "^3"
+    "tailwindcss": "3.3.4",
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.26",
+    "typescript": "5.2.2"
   }
 }
