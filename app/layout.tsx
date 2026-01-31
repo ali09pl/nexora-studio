@@ -1,12 +1,11 @@
 import './globals.css';
-import { ReactNode } from 'react';
 
 export const metadata = {
   title: 'Nexora Studio',
-  description: 'Professional studio portfolio built with Next.js',
+  description: 'Professional Portfolio Studio',
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>{children}</body>
