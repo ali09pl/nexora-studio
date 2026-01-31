@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  swcMinify: true, // يستعمل SWC WASM على Vercel
+  reactStrictMode: true,
+}
 
 module.exports = nextConfig
