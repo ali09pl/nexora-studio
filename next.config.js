@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  swcMinify: true, // يستعمل SWC WASM على Vercel
   reactStrictMode: true,
-}
+  swcMinify: true,
+  experimental: {
+    appDir: true
+  },
+  images: {
+    domains: ["avatars.githubusercontent.com", "your-cdn.com"]
+  }
+};
 
 module.exports = nextConfig
